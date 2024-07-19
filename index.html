@@ -27,72 +27,58 @@
 
             background-image: url(images/Terracotta\ None\ 800\ x\ 308\ mm\ texture.jpg);
             background-repeat: repeat;
-            
-            
-            
-            
-            
-            
+            box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.367);
+       
         }
         
         .flexcontainer{
             
             display: flex;
-            justify-content: center;
-            justify-items:end;
+            justify-content: flex-start;
+            align-items: baseline;
             
             
         }
        
-        #div1{
-            display: list-item;
-        }
-        #div2{
-            border: #211a21 ;
-            
-        }
-        #div3{}
-        
+     
 
         #titulosite{
 
-            color: rgb(219, 18, 18);
+            background: linear-gradient( -1deg, #217d21 , #a8fb3c ,#227e22,#a8fb3c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
             font-family: zeldafont;
             font-weight: lighter;
             font-size: 5em;
-            
-            
-            text-shadow: 5px 5px 2px black;
-            
+            text-align: center;
+            padding-top: 80px;  
+            margin-top: 0px;
+
         }
 
      
         #slogan{
             
-            padding: 30px;
+            padding: 90px;
             color: black;
             font-family: zeldafont;
             font-weight: lighter;
             font-size: 2em;
-            margin: 25px;
+            margin: 25px 0px 0px 0px;
             text-align: center;
             text-shadow: 3px 4px 2px white;
-            
-            
+             
         }
 
         nav{
+            background: linear-gradient(to bottom, #4f43ae, #0c025a);
             background-color: #4f43ae;
-            height: 40px;
-          
+            margin: 0px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
             
         }
-        img{
-
-            position:;
-            
-
-        }
+     
         a{
 
             text-decoration: none;
@@ -105,19 +91,24 @@
             font-style: normal;
      
         }
-        #escudo:hover{
-            text-decoration: none;
-            background-color:none;
+       
+        #escudo{
+            text-align: left;
+            margin: -70px 0px;
+            float: left;
+
         }
+        #alignnav{
+            text-align: left;
+        }
+      
+       
         a:hover{
 
             background-color: #7168b4;
-            border-radius: 8px;
+            border-radius: 14px 0px;
             
         }
-
-
-
 
         main{
             
@@ -125,6 +116,7 @@
             width: 800px;
             height: 1500px;
             margin: auto;
+            box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.582);
             
 
         }
@@ -132,7 +124,10 @@
             margin: 0px center;
             
         }
-        
+        p{
+            margin-top: 0px;
+            padding: 10px;
+        }
     </style>
 
 </head>
@@ -158,15 +153,19 @@
         
     </header>
 
-    <nav>
-        <img  src="images/logoescudo.png" alt="">
-        <a href="#">Home</a>
-        <a href="#">Gameplay</a>
-        <a href="#">Fórum</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <nav>
+            <img id="escudo" src="images/logoescudo.png" alt="">
+            <div id="alignnav">
+                <a id="navhome" href="#">Home</a>
+                <a href="#">Gameplay</a>
+                <a href="#">Fórum</a>
+                <a href="#">Sobre</a>
+                <a href="#">Gifts</a>
+                <a href="#">Contato</a>
+            </div>
+        </nav>
+    
 
-    </nav>
     <main>
 
         <section>
