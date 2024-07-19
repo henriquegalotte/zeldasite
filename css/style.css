@@ -16,8 +16,9 @@ body{
 }
 header{
 
-    background-image: url(/images/Terracotta\ None\ 800\ x\ 308\ mm\ texture.jpg);
-    background-repeat: repeat;
+    background-image: url(/images/devin-berko-DvrTk5En9eM-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.367);
     margin: auto;
@@ -36,33 +37,58 @@ header{
 }
 
 
-
 #titulosite{
 
-    background: linear-gradient( -1deg, #217d21 , #a8fb3c ,#227e22,#a8fb3c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    color: #4f43ae;
+    text-shadow: 2px 3px 2px black;
+    border: white solid 4px;
+    border-radius:45px ;
+    box-shadow: 7px 7px #4f43ae ;
+    backdrop-filter: blur(3px);
     font-family: zeldafont;
     font-weight: lighter;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
-    padding-top: 80px;  
-    margin-top: 0px;
+    padding: 6px;
+    margin: auto;
+    width: 650px;
+    text-transform: uppercase;
 
 }
 
+#titulosite:hover{
+    /*animation-name: slide;
+    animation-duration: 1.0s;
+    animation-direction: normal;
+    animation-fill-mode: both; 
+    */
+}
+@keyframes slide{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    70%{
+        transform: translateY(0px);
 
+    }100%{
+        transform: translateY(0px);
+        
+    }
+
+}
 #slogan{
     
     padding: 90px;
-    color: black;
+    color: white;
     font-family: zeldafont;
     font-weight: lighter;
     font-size: 2em;
     margin: 25px 0px 0px 0px;
     text-align: center;
-    text-shadow: 3px 4px 2px white;
+    text-shadow: 3px 4px 2px #7168b4;
      
 }
 
@@ -114,8 +140,7 @@ a:hover{
 main{
     
     background-color: #cec9cc;
-    width: 90%;
-    height: 1900px;
+    width: 80%;
     margin: 0 auto;
     box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.582);
     min-width: 640px;
@@ -129,9 +154,37 @@ section{
     
 }
 p{
+    font-size: 1.5em;
     text-align: center;
     margin-top: 0px;
     padding: 10px;
+}
+footer{
+    color: white;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    background-color: #4f43ae;
+    height: 30px;
     
+
+
+}
+#linkrodape:hover{
+
     
+}
+#linkrodape{
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+#divh1{
+
+    padding-top: 80px;
 }
