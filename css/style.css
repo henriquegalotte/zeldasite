@@ -56,7 +56,7 @@ header{
 
 }
 
-#titulosite:hover{
+#escudo:hover{
     animation-name: slide;
     animation-duration: 1.0s;
     animation-direction: normal;
