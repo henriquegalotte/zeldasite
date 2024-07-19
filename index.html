@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zelda Experience</title>
+    
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -24,43 +25,73 @@
         }
         header{
 
-            background-image: url(images/bgpaper.jpg);
-            background-repeat: no-repeat;
-            background-size: auto 300px;
-            padding: 18px;
-            height: 200px;
+            background-image: url(images/Terracotta\ None\ 800\ x\ 308\ mm\ texture.jpg);
+            background-repeat: repeat;
+            
+            
+            
+            
+            
             
         }
+        
+        .flexcontainer{
+            
+            display: flex;
+            justify-content: center;
+            justify-items:end;
+            
+            
+        }
+       
+        #div1{
+            display: list-item;
+        }
+        #div2{
+            border: #211a21 ;
+            
+        }
+        #div3{}
+        
 
-        header > h1{
-            background-color: #C1996C;
-            background-size: auto;
-            color: white;
+        #titulosite{
+
+            color: rgb(219, 18, 18);
             font-family: zeldafont;
             font-weight: lighter;
-            font-size: 3em;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
-            width: 380px;
+            font-size: 5em;
             
             
-            
-            margin: auto;
-            
-            
+            text-shadow: 5px 5px 2px black;
             
         }
 
-        header > p{
-            margin: 0px;
+     
+        #slogan{
+            
             padding: 30px;
+            color: black;
+            font-family: zeldafont;
+            font-weight: lighter;
+            font-size: 2em;
+            margin: 25px;
+            text-align: center;
+            text-shadow: 3px 4px 2px white;
+            
+            
         }
 
         nav{
             background-color: #4f43ae;
+            height: 40px;
+          
             
+        }
+        img{
+
+            position:;
             
+
         }
         a{
 
@@ -72,9 +103,11 @@
             font-family: "Poppins", sans-serif;
             font-weight: 800;
             font-style: normal;
-          
-            
-
+     
+        }
+        #escudo:hover{
+            text-decoration: none;
+            background-color:none;
         }
         a:hover{
 
@@ -112,11 +145,21 @@
 
     <header>
 
-        <h1>Zelda Experience</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, quibusdam at? Odio inventore ab debitis sed consequuntur, optio non adipisci excepturi! Nostrum quaerat sint mollitia soluta dolor hic, saepe qui!</p>
+     
+            <div >
+                <h1 id="titulosite">Zelda Experience</h1>
+            </div>
+            
+
+            <div >
+                <p id="slogan">Desbrave, Jogue e Conecte-se no Universo de The Legend of Zelda</p>
+            </div>
+        
+        
     </header>
 
     <nav>
+        <img  src="images/logoescudo.png" alt="">
         <a href="#">Home</a>
         <a href="#">Gameplay</a>
         <a href="#">Fórum</a>
