@@ -179,3 +179,12 @@ footer{
 
     padding-top: 80px;
 }
+article{
+    padding: 15px;
+    background-color: white;
+}
+
+#imgzelda{
+    margin: auto;
+    width: 100%;
+}
