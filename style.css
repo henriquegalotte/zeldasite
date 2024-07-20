@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: zeldafont;
-    src: url(./fonts/HyliaSerifBeta-Regular.otf);
+    src: url(/fonts/HyliaSerifBeta-Regular.otf);
 
 }
 
@@ -17,7 +17,7 @@ body{
 
 header{
 
-    background-image: url(./images/devin-berko-DvrTk5En9eM-unsplash.jpg);
+    background-image: url(/images/devin-berko-DvrTk5En9eM-unsplash.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,35 +178,4 @@ footer{
 #divh1{
 
     padding-top: 80px;
-}
-#imgzelda{
-   
-    height: auto;
-    width: 100%;
-    border-radius: 20px;
-    
-}
-
-section{
-    
-    padding: 30px;
-    text-align: center;
-    
-}
-article{
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-}
-p{  
-    text-indent: 28px;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 0px;
-    padding: 10px;
-    text-align: left;
-}
-section>h1{
-    font-size: 3em;
 }
