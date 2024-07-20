@@ -1,0 +1,20 @@
+
+HTML
+
+<audio id="som" src="audio/simple-notification-152054.mp3"></audio>
+
+
+
+
+JAVASCRIPT
+
+function play(){
+var musica = document.getElementById('som');
+musica.play()
+}
+
+
+
+
+adicionar onmouse na div a ser incluida: ex: <div onmouseup = ('play()') >aaaa</div> 
+*obs: não lembro se tem parenteses envolvendo o 'play()'
