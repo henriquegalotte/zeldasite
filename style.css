@@ -96,7 +96,7 @@ header{
 nav{
     background: linear-gradient(to bottom, #4f43ae, #0c025a);
     background-color: #4f43ae;
-    margin: auto;
+    
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     min-width: 700px;
     max-width: none;
@@ -127,9 +127,17 @@ a{
 
 }
 #alignnav{
-    text-align: left;
+
+    text-align: -webkit-center;
+    position: relative;
+    left: -120px;
+   
+    
 }
 
+#abahome{
+    margin-left: 50px;
+}
 
 a:hover{
 
@@ -169,16 +177,65 @@ article{
     border-radius: 20px;
     box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
 }
+#titulosaudacao{
+
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 60px auto;
+    color: #cec9cc;
+    text-shadow: 5px 5px 0px #4f43ae;
+
+    width: 80%;
+    background-color: #211a2191;
+    border-radius: 100px 0px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.719);
+    
+
+
+}
 article>h2{
     text-align: center;
     font-size: 2em;
     
+    
 }
 article>p{
     text-indent: 30px;
-    padding: 20px;
+    padding: 0px 20px;
 
 }
+
+.estilolink{
+    text-decoration: none;
+    color: #7168b4;
+    font-size: 1em;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0px;
+    
+
+
+}
+.estilolink:hover{
+
+    background-color: transparent;
+    color: green;
+}
+
+#vermaisp{
+    text-align: center;
+    font-size: 1.7em;
+
+    margin-top: 100px;
+}
+
+
 #imgzelda{
     
     width: 100%;
