@@ -27,7 +27,7 @@ header{
     background-position: center;
     box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.367);
     
-    min-width: 610px;
+    min-width: 640px;
     max-width: none;
     padding: 50px 0px;
     height: 300px;
@@ -313,23 +313,6 @@ li::marker{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     color: white;
 
@@ -340,6 +323,8 @@ footer{
     text-align: center;
     background-color: #4f43ae;
     height: 30px;
+    min-width: 640px;
+    max-width: none;
 
 }
 
