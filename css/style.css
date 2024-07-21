@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: zeldafont;
-    src: url(fonts/HyliaSerifBeta-Regular.otf);
+    src: url(/fonts/HyliaSerifBeta-Regular.otf);
 
 }
 
@@ -21,7 +21,7 @@ body{
 
 header{
 
-    background-image: url(images/devin-berko-DvrTk5En9eM-unsplash.jpg);
+    background-image: url(/images/devin-berko-DvrTk5En9eM-unsplash.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
