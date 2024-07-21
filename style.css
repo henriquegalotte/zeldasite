@@ -22,13 +22,35 @@ body{
 header{
 
     background-image: url(images/devin-berko-DvrTk5En9eM-unsplash.jpg);
-    background-size: 100%;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0px -10px 10px rgba(0, 0, 0, 0.367);
-    margin: auto;
-    min-width: 700px;
+    
+    min-width: 610px;
     max-width: none;
+    padding: 50px 0px;
+    height: 300px;
+    
+    
+}
+#titulosite{
+
+    color: #4f43ae;
+    text-shadow: 2px 3px 2px black;
+    border: white solid 4px;
+    border-radius:45px ;
+    box-shadow: 7px 7px #4f43ae ;
+    backdrop-filter: blur(3px);
+    font-family: zeldafont;
+    font-weight: lighter;
+    font-size: 3.6em;
+    text-align: center;
+    padding: 6px;
+    
+    width: 610px;
+    text-transform: uppercase;
+    margin: auto;
 
 }
 
@@ -41,25 +63,14 @@ header{
     
 }
 
+#tituloflex{
 
-#titulosite{
-
-    color: #4f43ae;
-    text-shadow: 2px 3px 2px black;
-    border: white solid 4px;
-    border-radius:45px ;
-    box-shadow: 7px 7px #4f43ae ;
-    backdrop-filter: blur(3px);
-    font-family: zeldafont;
-    font-weight: lighter;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
-    padding: 6px;
     margin: auto;
-    width: 650px;
-    text-transform: uppercase;
-
 }
+
+
 
 #escudo:hover{
     animation-name: slide;
@@ -102,7 +113,7 @@ nav{
     background-color: #4f43ae;
     
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    min-width: 700px;
+    min-width: 640px;
     max-width: none;
     
     
@@ -346,5 +357,5 @@ footer{
 
 #divh1{
 
-    padding-top: 80px;
+    
 }
