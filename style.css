@@ -181,21 +181,40 @@ article{
     border-radius: 20px;
     box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
 }
-#titulosaudacao{
-    font-size: 3em;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    margin: 60px auto;
-    color: #cec9cc;
-    text-shadow: 5px 5px 0px #4f43ae;
-    width: 80%;
-    background-color: #211a2191;
-    border-radius: 100px 0px;
-    padding: 10px;
-    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.719);
+
+#logoanimate{
+    color: #4f43ae;
+    text-shadow: 2px 3px 2px black;
+    border: white solid 4px;
+    border-radius:100px ;
+    
+    background-color: #484848;
+    font-family: zeldafont;
+    font-weight: 100;
+    font-size: 5em;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    
 }
+#bglogo{
+
+    background-color: #484848;
+    
+    width: 100px;
+    padding: 20px;
+    
+    margin: 10px -20px 10px auto;
+    border-radius: 100px 0px 0px 100px;
+   
+   
+    
+}
+
+
 article>h2{
     text-align: center;
     font-size: 2em;
