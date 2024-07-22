@@ -78,10 +78,7 @@ header{
 
 
 #escudo:hover{
-    animation-name: slide;
-    animation-duration: 1.0s;
-    animation-direction: normal;
-    animation-fill-mode: both; 
+    
     
 }
 

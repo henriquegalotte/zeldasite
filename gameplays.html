@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zelda Experience</title>
+    <title>Zelda Experience - Gameplay</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-------------------Audio section------------------------>
+    <audio id="audioescudo" src="audio/shield_sword.mp3"></audio>
+    <audio id="audiovento" src="audio/wind.mp3"></audio>
    
 </head>
 <body>
@@ -26,13 +29,13 @@
     </header>
 
         <nav>
-            <img id="escudo" src="images/logoescudo.png" alt="">
+            <img id="escudo" class="shieldanimate" src="images/logoescudo.png" alt="">
             <div id="alignnav">
                 <a id="abahome" href="index.html">Home</a>
                 <a href="gameplays.html">Gameplay</a>
-                <a href="#">Fórum</a>
-                <a href="#">Sobre</a>
-                <a href="#">Gifts</a>
+                <a href="forum.html">Fórum</a>
+                <a href="about.html">Sobre</a>
+                <a href="gift.html">Gifts</a>
                 <a href="reviews.html">Reviews</a>
             </div>
         </nav>
@@ -79,6 +82,8 @@
 
 
     </footer>
+    <script src="js/app.js"></script>
+
 </body>
 </html>
 

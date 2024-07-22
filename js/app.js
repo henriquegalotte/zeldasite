@@ -1,3 +1,14 @@
+function play(item){
+    var rep = document.getElementById(item);
+    rep.play();
+};
+
+
+
+
+
+
+
 
 
 // Config Param Rotação
@@ -13,9 +24,10 @@ const logoanimatetime = {
   };
 // Config Param Pulo
 const animatejump = [
-        { transform: "translateY(0px)" },
+        {transform: "translateY(0px)",offset: 0.1, },
         {transform: "translateY(-100px)", offset:0.5,},
         {transform: "translateY(0px)", offset:0.7,},
+        {transform: "translateY(-20px)", offset:0.9,},
         {transform: "translateY(0px)", offset:1.0,}
 ];
 // Config Param Tempo e Qtd de vezes que vai repetir
@@ -35,9 +47,11 @@ const shieldanimate = document.querySelector(".shieldanimate");
 //VARIÁVEL.animate(paramAção,paramTempoErepetição)
 shieldanimate.addEventListener("click", () => {
     shieldanimate.animate(animatejump,jumptime);
+    play('audioescudo');
 });
 //Usando a variável acima/adicionando um evento para capturar a ação "click"
 //VARIÁVEL.animate(paramAção,paramTempoErepetição)
 logoanimate.addEventListener("click",  () => {
     logoanimate.animate(logoanimatespin,logoanimatetime);   
+    play('audiovento');
 });
